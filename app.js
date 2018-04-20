@@ -68,7 +68,7 @@ app.use((req,res,next)=>{
 // Index Route
 app.get('/',(req,res)=>{
   const title = 'Divyansh'
-  res.render('INDEX',{
+  res.render('index',{
     title
   });
 
